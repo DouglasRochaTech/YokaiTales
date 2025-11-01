@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.7z filter=lfs diff=lfs merge=lfs -text
+/Library/Artifacts/87/87abf9949a7bda2ac85d7069dfb17c3f filter=lfs diff=lfs merge=lfs -text
