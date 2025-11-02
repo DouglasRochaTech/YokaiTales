@@ -3,16 +3,21 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AdicionadorDeInimigosGradual
     - AtivadorDeDialogo
+    - AtivadorDeObjetos
     - BarraDeVidaInimigo
     - Broccoli.Controller.BroccoTreeController_1_2_5
     - CaixaDeDialogo
     - CameraPivot
     - Cristal
+    - CururuBoss
+    - DesativadorDePlataformas
     - Detector
+    - DetectorDeJogador
     - EfeitoExplosao
     - FadeInNOut
     - GerenciadorGeral
     - GerenciadorSomPlataformas
+    - GerenciadorSomPlataformasHorizontais
     - Inimigo
     - Jogador
     - MenuPrincipal
@@ -20,6 +25,7 @@ ScriptsOnlyBuild:
     - MorteInterface
     - ParedeDeTexto
     - PlataformaQueMove
+    - PlataformaQueMoveHorizontalmente
     - testeeee
     Unity.Postprocessing.Runtime.dll:
     - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
@@ -108,19 +114,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12318}
     - Class: 114
-      Script: {instanceID: 12922}
+      Script: {instanceID: 12924}
     - Class: 114
-      Script: {instanceID: 13222}
+      Script: {instanceID: 13224}
     - Class: 114
-      Script: {instanceID: 13240}
+      Script: {instanceID: 13242}
     - Class: 114
-      Script: {instanceID: 13598}
+      Script: {instanceID: 13600}
     - Class: 114
-      Script: {instanceID: 13820}
+      Script: {instanceID: 13822}
     - Class: 114
-      Script: {instanceID: 14036}
+      Script: {instanceID: 14038}
     - Class: 114
-      Script: {instanceID: 14118}
+      Script: {instanceID: 14120}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -231,41 +237,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12692}
     - Class: 114
-      Script: {instanceID: 12794}
+      Script: {instanceID: 12762}
     - Class: 114
-      Script: {instanceID: 12864}
+      Script: {instanceID: 12796}
     - Class: 114
-      Script: {instanceID: 12874}
+      Script: {instanceID: 12866}
     - Class: 114
-      Script: {instanceID: 12922}
+      Script: {instanceID: 12876}
     - Class: 114
-      Script: {instanceID: 13222}
+      Script: {instanceID: 12924}
     - Class: 114
-      Script: {instanceID: 13314}
+      Script: {instanceID: 13224}
     - Class: 114
-      Script: {instanceID: 13506}
+      Script: {instanceID: 13316}
     - Class: 114
-      Script: {instanceID: 13598}
+      Script: {instanceID: 13508}
     - Class: 114
-      Script: {instanceID: 13868}
+      Script: {instanceID: 13600}
     - Class: 114
-      Script: {instanceID: 13950}
+      Script: {instanceID: 13870}
     - Class: 114
-      Script: {instanceID: 13976}
+      Script: {instanceID: 13952}
     - Class: 114
-      Script: {instanceID: 13998}
+      Script: {instanceID: 13978}
     - Class: 114
-      Script: {instanceID: 14012}
+      Script: {instanceID: 14000}
     - Class: 114
-      Script: {instanceID: 14112}
+      Script: {instanceID: 14014}
     - Class: 114
-      Script: {instanceID: 14118}
+      Script: {instanceID: 14114}
     - Class: 114
-      Script: {instanceID: 14168}
+      Script: {instanceID: 14120}
     - Class: 114
-      Script: {instanceID: 14172}
+      Script: {instanceID: 14170}
     - Class: 114
-      Script: {instanceID: 75402}
+      Script: {instanceID: 14174}
+    - Class: 114
+      Script: {instanceID: 22396}
+    - Class: 114
+      Script: {instanceID: 33328}
+    - Class: 114
+      Script: {instanceID: 91722}
+    - Class: 114
+      Script: {instanceID: 101290}
+    - Class: 114
+      Script: {instanceID: 154246}
+    - Class: 114
+      Script: {instanceID: 259362}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -665,6 +683,12 @@ ScriptsOnlyBuild:
     className: AutoExposure
   - hash:
       serializedVersion: 2
+      Hash: 3bc55994aeeff3ed2256b899b275e5a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GerenciadorSomPlataformas
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -905,7 +929,7 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
-      Hash: f1a3634b497d7f38a6b3c96d8600a16d
+      Hash: 45dcad4d3bfd88fa37387c7b967fccb7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AtivadorDeDialogo
@@ -953,12 +977,42 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 3bc55994aeeff3ed2256b899b275e5a1
+      Hash: 8a315381819c6bb70a2ce60615d9c86e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: GerenciadorSomPlataformas
+    className: PlataformaQueMoveHorizontalmente
+  - hash:
+      serializedVersion: 2
+      Hash: 89aeaa2fb601b082326630adb229f71d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GerenciadorSomPlataformasHorizontais
+  - hash:
+      serializedVersion: 2
+      Hash: 21a68d37776a3c244942d7cee0cee002
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DesativadorDePlataformas
+  - hash:
+      serializedVersion: 2
+      Hash: 80c8b783375ed2167f4fc5d7978cfa4d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AtivadorDeObjetos
+  - hash:
+      serializedVersion: 2
+      Hash: 64eb012bc5584fdda78ac1d6732297df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CururuBoss
+  - hash:
+      serializedVersion: 2
+      Hash: 9410ff1b1c87b0bda3f1681c1545d1d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DetectorDeJogador
   platform: 5
   scenePathNames:
   - Assets/Scenes/Menu Principal.unity
   - Assets/Scenes/Primeira Fase.unity
-  playerPath: "D:/SENAC Apresenta\xE7\xE3o Build V7.3/SENAC Apresenta\xE7\xE3o.exe"
+  playerPath: "D:/YokaiTales Build Apresenta\xE7\xE3o 1/Yokai Tales.exe"

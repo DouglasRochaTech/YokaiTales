@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,17 +53,16 @@
     <UnityVersion>2019.4.31f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
+    <Compile Include="Assets\AtivadorDeObjetos.cs" />
     <Compile Include="Assets\BarraDeVidaInimigo.cs" />
     <Compile Include="Assets\CameraPivot.cs" />
     <Compile Include="Assets\Cristal\Cristal.cs" />
     <Compile Include="Assets\Cristal\MiraPraCamera.cs" />
     <Compile Include="Assets\GerenciadorGeral.cs" />
-    <Compile Include="Assets\Inimigo Cururu\AdicionadorDeInimigosGradual.cs" />
-    <Compile Include="Assets\Inimigo Cururu\EfeitoExplosao.cs" />
-    <Compile Include="Assets\Inimigo Cururu\Inimigo.cs" />
+    <Compile Include="Assets\InimigoCururu\AdicionadorDeInimigosGradual.cs" />
+    <Compile Include="Assets\InimigoCururu\EfeitoExplosao.cs" />
+    <Compile Include="Assets\InimigoCururu\Inimigo.cs" />
+    <Compile Include="Assets\InimigoCururuBoss\CururuBoss.cs" />
     <Compile Include="Assets\Interface\AtivadorDeDialogo.cs" />
     <Compile Include="Assets\Interface\CaixaDeDialogo.cs" />
     <Compile Include="Assets\Interface\FadeInNOut.cs" />
@@ -73,8 +72,12 @@
     <Compile Include="Assets\Jogador\Jogador.cs" />
     <Compile Include="Assets\Jogador\testeeee.cs" />
     <Compile Include="Assets\ParedeDeTexto.cs" />
+    <Compile Include="Assets\PlataformasDinamicas\DesativadorDePlataformas.cs" />
+    <Compile Include="Assets\PlataformasDinamicas\DetectorDeJogador.cs" />
     <Compile Include="Assets\PlataformasDinamicas\GerenciadorSomPlataformas.cs" />
+    <Compile Include="Assets\PlataformasDinamicas\GerenciadorSomPlataformasHorizontais.cs" />
     <Compile Include="Assets\PlataformasDinamicas\PlataformaQueMove.cs" />
+    <Compile Include="Assets\PlataformasDinamicas\PlataformaQueMoveHorizontalmente.cs" />
     <Compile Include="Assets\Waldemarst\Broccoli\Controller\BroccoTreeController_1_2_5.cs" />
   </ItemGroup>
   <ItemGroup>
