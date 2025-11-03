@@ -63,9 +63,12 @@
     <Compile Include="Assets\InimigoCururu\EfeitoExplosao.cs" />
     <Compile Include="Assets\InimigoCururu\Inimigo.cs" />
     <Compile Include="Assets\InimigoCururuBoss\CururuBoss.cs" />
+    <Compile Include="Assets\InimigoCururuBoss\CururuBossSonsIniciais.cs" />
     <Compile Include="Assets\Interface\AtivadorDeDialogo.cs" />
     <Compile Include="Assets\Interface\CaixaDeDialogo.cs" />
     <Compile Include="Assets\Interface\FadeInNOut.cs" />
+    <Compile Include="Assets\Interface\FimApresentacao.cs" />
+    <Compile Include="Assets\Interface\FimApresentacaoAtivador.cs" />
     <Compile Include="Assets\Interface\Menu Principal\MenuPrincipal.cs" />
     <Compile Include="Assets\Interface\MorteInterface.cs" />
     <Compile Include="Assets\Jogador\Detector.cs" />

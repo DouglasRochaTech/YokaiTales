@@ -19,8 +19,18 @@ public class GerenciadorSomPlataformas : MonoBehaviour
 
         if (PlataformasAtivas == 0)
         {
-            MinhaAudioSource.enabled = false;
-            this.enabled = false;
+            MinhaAudioSource.volume -= 2 * Time.deltaTime;
+
+            if (MinhaAudioSource.volume == 0)
+            {
+                this.enabled = false;
+            }
         }
+        else
+        {
+            MinhaAudioSource.volume += 2 * Time.deltaTime;
+        }
+
+        MinhaAudioSource.volume = Mathf.Clamp(MinhaAudioSource.volume, 0, 0.25f);
     }
 }

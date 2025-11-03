@@ -10,11 +10,14 @@ ScriptsOnlyBuild:
     - CameraPivot
     - Cristal
     - CururuBoss
+    - CururuBossSonsIniciais
     - DesativadorDePlataformas
     - Detector
     - DetectorDeJogador
     - EfeitoExplosao
     - FadeInNOut
+    - FimApresentacao
+    - FimApresentacaoAtivador
     - GerenciadorGeral
     - GerenciadorSomPlataformas
     - GerenciadorSomPlataformasHorizontais
@@ -106,27 +109,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11666}
     - Class: 114
-      Script: {instanceID: 11712}
+      Script: {instanceID: 11714}
     - Class: 114
-      Script: {instanceID: 12268}
+      Script: {instanceID: 12272}
     - Class: 114
-      Script: {instanceID: 12304}
+      Script: {instanceID: 12308}
     - Class: 114
-      Script: {instanceID: 12318}
+      Script: {instanceID: 12322}
     - Class: 114
-      Script: {instanceID: 12924}
+      Script: {instanceID: 12928}
     - Class: 114
-      Script: {instanceID: 13224}
+      Script: {instanceID: 13230}
     - Class: 114
-      Script: {instanceID: 13242}
+      Script: {instanceID: 13248}
     - Class: 114
-      Script: {instanceID: 13600}
+      Script: {instanceID: 13608}
     - Class: 114
-      Script: {instanceID: 13822}
+      Script: {instanceID: 13832}
     - Class: 114
-      Script: {instanceID: 14038}
+      Script: {instanceID: 14050}
     - Class: 114
-      Script: {instanceID: 14120}
+      Script: {instanceID: 14132}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -211,79 +214,85 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11702}
     - Class: 114
-      Script: {instanceID: 11712}
+      Script: {instanceID: 11706}
     - Class: 114
-      Script: {instanceID: 11860}
+      Script: {instanceID: 11714}
     - Class: 114
-      Script: {instanceID: 11876}
+      Script: {instanceID: 11780}
     - Class: 114
-      Script: {instanceID: 11914}
+      Script: {instanceID: 11864}
     - Class: 114
-      Script: {instanceID: 11958}
+      Script: {instanceID: 11880}
     - Class: 114
-      Script: {instanceID: 12140}
+      Script: {instanceID: 11918}
     - Class: 114
-      Script: {instanceID: 12240}
+      Script: {instanceID: 11962}
     - Class: 114
-      Script: {instanceID: 12268}
+      Script: {instanceID: 12144}
     - Class: 114
-      Script: {instanceID: 12310}
+      Script: {instanceID: 12244}
     - Class: 114
-      Script: {instanceID: 12436}
+      Script: {instanceID: 12272}
     - Class: 114
-      Script: {instanceID: 12482}
+      Script: {instanceID: 12314}
     - Class: 114
-      Script: {instanceID: 12582}
+      Script: {instanceID: 12440}
     - Class: 114
-      Script: {instanceID: 12692}
+      Script: {instanceID: 12486}
     - Class: 114
-      Script: {instanceID: 12762}
+      Script: {instanceID: 12586}
     - Class: 114
-      Script: {instanceID: 12796}
+      Script: {instanceID: 12696}
     - Class: 114
-      Script: {instanceID: 12866}
+      Script: {instanceID: 12766}
     - Class: 114
-      Script: {instanceID: 12876}
+      Script: {instanceID: 12800}
     - Class: 114
-      Script: {instanceID: 12924}
+      Script: {instanceID: 12870}
     - Class: 114
-      Script: {instanceID: 13224}
+      Script: {instanceID: 12880}
     - Class: 114
-      Script: {instanceID: 13316}
+      Script: {instanceID: 12928}
     - Class: 114
-      Script: {instanceID: 13508}
+      Script: {instanceID: 12948}
     - Class: 114
-      Script: {instanceID: 13600}
+      Script: {instanceID: 13230}
     - Class: 114
-      Script: {instanceID: 13870}
+      Script: {instanceID: 13322}
     - Class: 114
-      Script: {instanceID: 13952}
+      Script: {instanceID: 13390}
     - Class: 114
-      Script: {instanceID: 13978}
+      Script: {instanceID: 13516}
     - Class: 114
-      Script: {instanceID: 14000}
+      Script: {instanceID: 13608}
     - Class: 114
-      Script: {instanceID: 14014}
+      Script: {instanceID: 13788}
     - Class: 114
-      Script: {instanceID: 14114}
+      Script: {instanceID: 13880}
     - Class: 114
-      Script: {instanceID: 14120}
+      Script: {instanceID: 13914}
     - Class: 114
-      Script: {instanceID: 14170}
+      Script: {instanceID: 13964}
     - Class: 114
-      Script: {instanceID: 14174}
+      Script: {instanceID: 13990}
     - Class: 114
-      Script: {instanceID: 22396}
+      Script: {instanceID: 14012}
     - Class: 114
-      Script: {instanceID: 33328}
+      Script: {instanceID: 14026}
     - Class: 114
-      Script: {instanceID: 91722}
+      Script: {instanceID: 14126}
     - Class: 114
-      Script: {instanceID: 101290}
+      Script: {instanceID: 14132}
     - Class: 114
-      Script: {instanceID: 154246}
+      Script: {instanceID: 14182}
     - Class: 114
-      Script: {instanceID: 259362}
+      Script: {instanceID: 14186}
+    - Class: 114
+      Script: {instanceID: 134926}
+    - Class: 114
+      Script: {instanceID: 140690}
+    - Class: 114
+      Script: {instanceID: 142142}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -449,6 +458,12 @@ ScriptsOnlyBuild:
     className: Cristal
   - hash:
       serializedVersion: 2
+      Hash: 64eb012bc5584fdda78ac1d6732297df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CururuBoss
+  - hash:
+      serializedVersion: 2
       Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -471,6 +486,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 80c8b783375ed2167f4fc5d7978cfa4d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AtivadorDeObjetos
   - hash:
       serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
@@ -653,7 +674,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: ff33bcc24aabf602c444d27b0a8aeecc
+      Hash: 54a7699f640f31f6a31f88f0312a8efd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CaixaDeDialogo
@@ -737,6 +758,12 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: 9410ff1b1c87b0bda3f1681c1545d1d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DetectorDeJogador
+  - hash:
+      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -797,6 +824,12 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 21a68d37776a3c244942d7cee0cee002
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DesativadorDePlataformas
+  - hash:
+      serializedVersion: 2
       Hash: 6939772cb3ce775a8e8d99f332534491
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -821,6 +854,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 89aeaa2fb601b082326630adb229f71d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GerenciadorSomPlataformasHorizontais
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -837,6 +876,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GerenciadorGeral
+  - hash:
+      serializedVersion: 2
+      Hash: 8a315381819c6bb70a2ce60615d9c86e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlataformaQueMoveHorizontalmente
   - hash:
       serializedVersion: 2
       Hash: d5630f96bd5a6a6eed7e1754c3fb8703
@@ -977,40 +1022,22 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 8a315381819c6bb70a2ce60615d9c86e
+      Hash: c21e63fa1883e5ca7a42db3eecab5de8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PlataformaQueMoveHorizontalmente
+    className: FimApresentacao
   - hash:
       serializedVersion: 2
-      Hash: 89aeaa2fb601b082326630adb229f71d
+      Hash: b779f180e0b2c0d0a6570749e8ffc9c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: GerenciadorSomPlataformasHorizontais
+    className: FimApresentacaoAtivador
   - hash:
       serializedVersion: 2
-      Hash: 21a68d37776a3c244942d7cee0cee002
+      Hash: 7c90385dd9d034d273d9c098c087e642
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: DesativadorDePlataformas
-  - hash:
-      serializedVersion: 2
-      Hash: 80c8b783375ed2167f4fc5d7978cfa4d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AtivadorDeObjetos
-  - hash:
-      serializedVersion: 2
-      Hash: 64eb012bc5584fdda78ac1d6732297df
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CururuBoss
-  - hash:
-      serializedVersion: 2
-      Hash: 9410ff1b1c87b0bda3f1681c1545d1d3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DetectorDeJogador
+    className: CururuBossSonsIniciais
   platform: 5
   scenePathNames:
   - Assets/Scenes/Menu Principal.unity

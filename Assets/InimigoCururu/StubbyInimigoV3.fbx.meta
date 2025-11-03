@@ -39,6 +39,9 @@ ModelImporter:
   - first:
       74: 2237212324037024284
     second: CairRugir
+  - first:
+      74: 2237212324037024284
+    second: StubbyEnemyArmature|CairRugir
   externalObjects: {}
   materials:
     materialImportMode: 1

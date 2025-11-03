@@ -19,18 +19,13 @@ public class GerenciadorSomPlataformasHorizontais : MonoBehaviour
 
         if (PlataformasAtivas == 0)
         {
-            if (MinhaAudioSource.enabled)
-            {
-                MinhaAudioSource.enabled = false;
-            }
-            //this.enabled = false;
+            MinhaAudioSource.volume -= 4 * Time.deltaTime;
         }
         else
         {
-            if (!MinhaAudioSource.enabled)
-            {
-                MinhaAudioSource.enabled = true;
-            }
+            MinhaAudioSource.volume += 4 * Time.deltaTime;
         }
+
+        MinhaAudioSource.volume = Mathf.Clamp(MinhaAudioSource.volume, 0, 0.25f);
     }
 }

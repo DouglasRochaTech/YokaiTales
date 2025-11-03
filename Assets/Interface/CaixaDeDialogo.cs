@@ -13,13 +13,15 @@ public class CaixaDeDialogo : MonoBehaviour
     public AudioClip DialogoAudio;
     public AudioClip Confirmar;
     public AudioClip Selecionar;
+    public float VolumeAudio = 1;
 
     private void OnEnable()
     {
         ScriptDoJogador.enabled = false;
+        ScriptDoJogador.AudioSourceCorridinha.volume = 0;
         Time.timeScale = 0;
 
-        UIAudioSource.PlayOneShot(DialogoAudio);
+        UIAudioSource.PlayOneShot(DialogoAudio, VolumeAudio);
     }
 
     void Update()
@@ -46,6 +48,7 @@ public class CaixaDeDialogo : MonoBehaviour
             else
             {
                 ScriptDoJogador.enabled = true;
+                ScriptDoJogador.AudioSourceCorridinha.volume = 1;
                 Time.timeScale = 1;
             }
         }
